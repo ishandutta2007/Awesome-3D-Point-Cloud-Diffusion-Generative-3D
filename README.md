@@ -1,66 +1,67 @@
-# Awesome-3D-Point-Cloud-Diffusion-Generative-3D
+# Awesome 3D Point Cloud Diffusion & Generative 3D [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top 3D Point Cloud Diffusion & Generative 3D Ecosystem
+> A curated directory of state-of-the-art **3D Point Cloud Diffusion Models**, **Generative 3D AI**, **3D Gaussian Splatting (3DGS)**, **Monocular Depth & Geometry Transformers**, and **LiDAR / Photogrammetry Reality Capture Systems**.
 
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D?style=social)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 📌 Executive Summary & Key Highlights
 
-*Focused on Point Cloud Diffusion Transformers, Monocular Geometry Estimation, 3D Gaussian Splatting & LiDAR/Photogrammetry Reconstruction*  
+This repository tracks high-impact **commercial SaaS platforms** and **open-source GitHub repositories** powering modern spatial computing and generative 3D vision:
+* **Diffusion Transformers & Flow Matching for 3D Geometry**: Synthesize dense 3D point clouds, signed distance fields (SDF), and textured meshes from text prompts or single reference images (`Point-E`, `TRELLIS`, `LION`, `Hunyuan3D 2.0`, `pointdit`).
+* **Monocular Geometry & Metric Depth Foundation Models**: Reconstruct calibrated pointmaps and dense 3D surfaces without camera priors or COLMAP triangulation (`DUSt3R`, `MASt3R`, `Apple Depth Pro`).
+* **Real-Time Radiance Fields & 3D Gaussian Splatting (3DGS)**: High-speed rasterization, cloud capture, and browser editing of 3D and 4D volumetric scenes (`Scaniverse`, `Luma AI`, `Nerfstudio`, `SuperSplat`, `gsplat`, `Postshot`).
+* **Industrial Reality Capture & Point Cloud Processing**: Automated semantic segmentation, alignment, and WebGL streaming of multi-billion-point airborne/terrestrial LiDAR scans (`Open3D`, `CloudCompare`, `PCL`, `PDAL`, `Potree`, `Cintoo Cloud`).
 
-**Last updated: November 2026**
+---
 
+## 📑 Table of Contents
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **3D Point Cloud Diffusion & Generative 3D**. These tools generate dense 3D point clouds and textured meshes from text or single images, denoise raw 3D point maps in pixel space, reconstruct real-world LiDAR/photogrammetry scans, and render real-time 3D Gaussian Splats.
-
-
-
-**Examples** include Luma AI, Polycam, Scaniverse, Jawset Postshot, KIRI Engine, Gracia AI, Spline, Artec Cloud, Nerfstudio, SuperSplat, and google-research/pointdit (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for point-cloud diffusion models, pixel-space geometry diffusion, local 3DGS training/editing, and large-scale point-cloud processing/rendering — ideal for 3D computer vision researchers, spatial AI engineers, graphics programmers, and 3D capture artists.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Spatial AI Platforms](#saas--hosted-spatial-ai-platforms)
+- [Open-Source GitHub Projects (Ranked by Stars)](#open-source-github-projects-ranked-by-stars)
+- [Recommended Architectural Pipelines](#recommended-architectural-pipelines)
 - [How to Contribute](#how-to-contribute)
+- [Disclaimer & License Guidance](#disclaimer--license-guidance)
 
-- [Disclaimer](#disclaimer)
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The global market for Generative AI in 3D content creation and spatial reality capture is estimated at **$2.5 billion to $3.2 billion**, accelerating at a CAGR exceeding 35% toward **$9.4+ billion** by the early 2030s. 
 
-## Sector Overview & Market Dynamics
+Rather than a winner-take-all consolidation, the sector is **highly fragmented**:
+- **Diverse Accuracy Constraints**: Robotics and autonomous driving mandate millimeter-level metric ground truth from LiDAR and SLAM, whereas VFX and gaming prioritize perceptual realism, speed, and clean quad retopology.
+- **Workflow Dispersion**: Toolchains remain split across capture apps, diffusion backbones, 3D Gaussian editors, and traditional DCC engines (Blender, Unreal Engine, Maya).
+- **Open-Weights vs. Proprietary APIs**: Rapid advances in open research models (`TRELLIS`, `Hunyuan3D-2`, `DUSt3R`, `Point-E`) create strong local competition against proprietary cloud ecosystems.
 
-The global market for Generative AI in 3D assets and reality capture is currently valued between **.5 billion and .2 billion**, accelerating at a CAGR exceeding 35% toward an estimated **.4+ billion** by the early 2030s. The sector remains **highly fragmented** rather than winner-take-all, driven by distinct vertical requirements across autonomous robotics (metric LiDAR accuracy), AEC/BIM digital twins (massive cloud point-cloud processing), spatial computing/XR (4D Gaussian Splatting), and real-time gaming (lightweight textured meshes and diffusion transformers).
+---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Spatial AI Platforms
+
+The table below benchmarks key SaaS reality-capture and generative 3D platforms, sorted descending by company size (valuation / capital raised / ARR):
 
 | Platform | Valuation / Revenue | Starting Pricing | Free Tier Limits | Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Niantic Scaniverse](https://scaniverse.com)** | .0B Valuation / ~ Revenue (Parent Niantic) | /month (Plus plan) | Free forever on mobile; unlimited on-device 3D Gaussian Splatting & point-cloud capture/export, 20,000 monthly cloud credits | On-device 3D Gaussian Splatting, LiDAR capture, WebGL sharing, and geospatial mesh processing |
-| **[Luma AI](https://lumalabs.ai)** | .0B Valuation / ~ ARR | /month (Plus tier, 10,000 credits/mo) | Free forever; ~80 daily generation credits for low-volume video & 3DGS testing | Cloud 3D Gaussian Splatting, Dream Machine generative video, and text/image-to-3D asset synthesis |
-| **[Polycam](https://poly.cam)** |  Valuation / ~.5M ARR | /month (/year Pro tier) | Free forever; unlimited LiDAR/room scanning with basic GLTF export (point cloud & CAD export restricted) | Smartphone LiDAR scanning, photogrammetry, 3DGS, and instant browser floor plan generation |
-| **[Cintoo Cloud](https://cintoo.com)** |  Valuation / ~.7M ARR | ,800/year (bundles of 500 scans) | 30-day free trial; maximum 20 scan uploads and unlimited 3D/BIM model imports | Reality capture SaaS streaming massive LiDAR point clouds as high-fidelity TurboMesh™ with CAD/BIM alignment |
-| **[Spline (3DGS & AI)](https://spline.design)** |  Valuation / ~.5M ARR | /editor/month (/mo billed monthly) | Free forever; unlimited personal 3D files and viewers (exports include Spline watermark) | Browser-based 3D design studio supporting imported 3D Gaussian Splats, AI 3D gen, and WebGL embeds |
-| **[Artec Cloud](https://artec3d.com)** | €15M EIB Venture Debt / ~.8M Revenue | /year (~/mo, 200 GB tier) | Free forever; 5 GB free cloud storage for scan uploads, 3D viewing, and team commenting | Cloud photogrammetry and industrial LiDAR scan processing, point-cloud alignment, and mesh reconstruction |
+| **[Niantic Scaniverse](https://scaniverse.com)** | $9.0B Valuation / ~$800M Revenue (Parent Niantic) | $20/month (Plus plan) | Free forever on mobile; unlimited on-device 3D Gaussian Splatting & point-cloud capture/export, 20,000 monthly cloud credits | On-device 3D Gaussian Splatting, LiDAR capture, WebGL sharing, and geospatial mesh processing |
+| **[Luma AI](https://lumalabs.ai)** | $4.0B Valuation / ~$75M ARR | $30/month (Plus tier, 10,000 credits/mo) | Free forever; ~80 daily generation credits for low-volume video & 3DGS testing | Cloud 3D Gaussian Splatting, Dream Machine generative video, and text/image-to-3D asset synthesis |
+| **[Polycam](https://poly.cam)** | $200M Valuation / ~$6.5M ARR | $30/month ($360/year Pro tier) | Free forever; unlimited LiDAR/room scanning with basic GLTF export (point cloud & CAD export restricted) | Smartphone LiDAR scanning, photogrammetry, 3DGS, and instant browser floor plan generation |
+| **[Cintoo Cloud](https://cintoo.com)** | $150M Valuation / ~$19.7M ARR | $1,800/year (bundles of 500 scans) | 30-day free trial; maximum 20 scan uploads and unlimited 3D/BIM model imports | Reality capture SaaS streaming massive LiDAR point clouds as high-fidelity TurboMesh™ with CAD/BIM alignment |
+| **[Spline (3DGS & AI)](https://spline.design)** | $80M Valuation / ~$5.5M ARR | $9/editor/month ($12/mo billed monthly) | Free forever; unlimited personal 3D files and viewers (exports include Spline watermark) | Browser-based 3D design studio supporting imported 3D Gaussian Splats, AI 3D gen, and WebGL embeds |
+| **[Artec Cloud](https://artec3d.com)** | €15M EIB Venture Debt / ~$27.8M Revenue | $700/year (~$59/mo, 200 GB tier) | Free forever; 5 GB free cloud storage for scan uploads, 3D viewing, and team commenting | Cloud photogrammetry and industrial LiDAR scan processing, point-cloud alignment, and mesh reconstruction |
 | **[Pointly](https://pointly.ai)** | Private (Supper & Supper GmbH) | €99/month (Professional S tier, 500 MPoints) | Free forever; 15 million points (15 MPoints) upload limit with pre-trained AI classifiers | Cloud 3D point cloud classification, aerial LiDAR segmentation, and automated feature extraction |
-| **[Jawset Postshot](https://jawset.com)** | Private / Bootstrapped | €17/month (~.50/mo Indie tier, billed annually) | Free forever; unlimited images & model size (non-commercial only, watermarked, locked exports) | Desktop NeRF & 3D Gaussian Splatting workstation with live previews and Unreal Engine / After Effects plugins |
-| **[Gracia AI](https://gracia.ai)** | .9M Seed Funding / Pre-ARR | ~/minute of processed 4DGS content | Free forever for VR Viewer on Steam, Meta Quest, and Apple Vision Pro (pilot trials for creators) | 6DoF volumetric 4D Gaussian Splatting streaming pipeline for photorealistic VR and spatial computing |
+| **[Jawset Postshot](https://jawset.com)** | Private / Bootstrapped | €17/month (~$18.50/mo Indie tier, billed annually) | Free forever; unlimited images & model size (non-commercial only, watermarked, locked exports) | Desktop NeRF & 3D Gaussian Splatting workstation with live previews and Unreal Engine / After Effects plugins |
+| **[Gracia AI](https://gracia.ai)** | $2.9M Seed Funding / Pre-ARR | ~$800/minute of processed 4DGS content | Free forever for VR Viewer on Steam, Meta Quest, and Apple Vision Pro (pilot trials for creators) | 6DoF volumetric 4D Gaussian Splatting streaming pipeline for photorealistic VR and spatial computing |
 
-## Open-Source GitHub Projects
+---
 
-A curated index of open-source repositories for 3D point cloud diffusion, generative 3D modeling, Gaussian Splatting, and LiDAR reality capture—strictly ranked by GitHub star count.
+## 💻 Open-Source GitHub Projects (Ranked by Stars)
+
+A comprehensive directory of open-source frameworks, diffusion models, and reality-capture libraries—strictly sorted in descending order by GitHub stargazer count.
 
 - **[3D Gaussian Splatting (`graphdeco-inria/gaussian-splatting`)](https://github.com/graphdeco-inria/gaussian-splatting)** [![GitHub stars](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting?style=social&color=white)](https://github.com/graphdeco-inria/gaussian-splatting/stargazers)  
   Foundational SIGGRAPH 2023 3D Gaussian Splatting project for real-time radiance field rendering, rasterization, and rapid novel view synthesis.
@@ -143,7 +144,7 @@ A curated index of open-source repositories for 3D point cloud diffusion, genera
 - **[Occupancy Flow (`autonomousvision/occupancy_flow`)](https://github.com/autonomousvision/occupancy_flow)** [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/occupancy_flow?style=social&color=white)](https://github.com/autonomousvision/occupancy_flow/stargazers)  
   4D reconstruction architecture learning continuous vector fields in space and time to capture dense motion and continuous generative shape representations.
 
-- **[SLIDE (`SLIDE-3D/SLIDE`)](https://github.com/SLIDE-3D/SLIDE)** [![GitHub stars](https://img.shields.io/github/stars/SLIDE-3D/SLIDE?style=social&color=white)](https://github.com/SLIDE-3D/SLIDE/stargazers)  
+- **[SLIDE (`SLIDE-3D/SLIDE`)](https://github.com/SLIDE-3D/SLIDE)** [![GitHub stars](https://img.shields.io/github/stars/SLIDE-3D/SLIDE)](https://github.com/SLIDE-3D/SLIDE/stargazers)  
   Sparse Latent Point Diffusion model encoding 3D geometries into sparse latent points with rich features for controllable point-cloud and mesh generation.
 
 - **[SPVD (`JohnRomanelis/SPVD`)](https://github.com/JohnRomanelis/SPVD)** [![GitHub stars](https://img.shields.io/github/stars/JohnRomanelis/SPVD?style=social&color=white)](https://github.com/JohnRomanelis/SPVD/stargazers)  
@@ -155,40 +156,34 @@ A curated index of open-source repositories for 3D point cloud diffusion, genera
 - **[Awesome-Point-Cloud-Generation (`Dekai21/Awesome-Point-Cloud-Generation`)](https://github.com/Dekai21/Awesome-Point-Cloud-Generation)** [![GitHub stars](https://img.shields.io/github/stars/Dekai21/Awesome-Point-Cloud-Generation?style=social&color=white)](https://github.com/Dekai21/Awesome-Point-Cloud-Generation/stargazers)  
   Curated chronological index of point-cloud diffusion, flow-matching, and autoregressive architectures (DiT-3D, TIGER, PSF, SeaLion).
 
-## How to Contribute
+---
 
+## 🛠️ Recommended Architectural Pipelines
 
+For teams building end-to-end custom 3D point cloud diffusion and generative 3D pipelines:
 
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Point cloud diffusion transformers (such as `PointDiT`, `Point-E`, and `LION`) require compatible PyTorch/CUDA environments, and gated backbone weights (such as `DINOv3` for PointDiT) must be requested separately from upstream providers.
-
-- Verify individual software, dataset, and model weight licenses (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `GPL-2.0+`, or research-only terms) before commercial deployment.
-
-
+1. **Geometry Ingestion & Dense Point Extraction**: Use **Apple Depth Pro** or **DUSt3R / MASt3R** for instant, calibration-free 3D pointmap estimation from unposed camera views.
+2. **Generative Denoising & Shape Synthesis**: Employ **google-research/pointdit**, **microsoft/TRELLIS**, or **OpenAI Point-E** for dense point diffusion, flow matching, and structured latent completion.
+3. **Radiance Field Representation**: Train real-time 3D Gaussian Splats via **Nerfstudio (`gsplat`)** or **Brush**.
+4. **Processing, Cleansing & Production Polish**: Leverage **Open3D** for surface reconstruction / outlier filtering and **SuperSplat** for browser-based interactive crop and float removal.
+5. **Streaming & Big-Data Visualization**: Deploy **Potree** or **Rerun** for multi-gigabyte browser/client streaming of point clouds and camera telemetry.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions from researchers, engineers, and creators are warmly welcomed!
 
-**Made for 3D computer vision researchers, spatial AI engineers, graphics programmers, and reality-capture specialists.**  
+1. Fork this repository.
+2. Create a feature branch (`git checkout -b feature/new-3d-tool`).
+3. Add or update entries under `README.md` following the established table / badge conventions.
+4. Ensure factual pricing, verified GitHub links, and proper category placement.
+5. Open a Pull Request with a brief summary of the project.
 
-Let's make 3D point cloud diffusion and generative 3D modeling more open, accurate, and accessible.
+---
+
+## ⚖️ Disclaimer & License Guidance
+
+* This compilation is a **community-curated index** provided for educational and research purposes.
+* Point cloud diffusion transformers and foundational models (`PointDiT`, `TRELLIS`, `DUSt3R`, `DINOv3`) may require high-memory GPUs (CUDA 12+) and specific research license agreements for model weights.
+* Review each project's individual open-source license (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `GPL-2.0+`, or custom academic non-commercial terms) prior to production deployment.
