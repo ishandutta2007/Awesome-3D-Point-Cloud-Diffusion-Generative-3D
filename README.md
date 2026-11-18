@@ -42,63 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Luma AI](https://lumalabs.ai)**  
-
-  Cloud AI 3D capture and generative platform turning smartphone videos and text prompts into photorealistic 3D Gaussian Splats, point clouds, and meshes.
-
-
-
-- **[Polycam](https://poly.cam)**  
-
-  Cross-platform mobile and web 3D scanning suite supporting LiDAR point-cloud capture, photogrammetry, cloud 3D Gaussian Splatting, and browser sharing.
-
-
-
-- **[Niantic Scaniverse](https://scaniverse.com)**  
-
-  Mobile spatial scanning app offering on-device 3D Gaussian Splatting and dense point-cloud capture, editing, and geospatial world mapping.
-
-
-
-- **[Jawset Postshot](https://jawset.com)**  
-
-  High-speed 3D Gaussian Splatting and radiance field workstation featuring live training previews, ACES color pipelines, and Unreal Engine / After Effects plugins.
-
-
-
-- **[KIRI Engine](https://kiriengine.app)**  
-
-  Cloud 3D scanning and Gaussian Splatting platform providing mobile photo-to-3D capture, splat-to-mesh conversion, quad-retopology, and Blender integration.
-
-
-
-- **[Gracia AI](https://gracia.ai)**  
-
-  Spatial computing platform for publishing, streaming, and experiencing photorealistic 6DoF volumetric 3D Gaussian Splatting scenes across VR headsets and web.
-
-
-
-- **[Spline (3DGS & AI)](https://spline.design)**  
-
-  Collaborative browser-based 3D design studio supporting imported 3D Gaussian Splats, generative 3D assets, interactive lighting, and instant WebGL embeds.
-
-
-
-- **[Artec Cloud](https://artec3d.com)**  
-
-  Cloud-based 3D scan processing, point-cloud alignment, mesh reconstruction, and collaborative inspection platform built for professional 3D scanners.
-
-
-
-- **[Pointly / Cintoo Cloud](https://cintoo.com)**  
-
-  Cloud reality-capture and point-cloud management SaaS platforms enabling browser-native streaming, AI semantic classification, and CAD/BIM comparison of massive LiDAR scans.
-
-
-
-
+| Platform | Valuation / Revenue | Starting Pricing | Free Tier Limits | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Niantic Scaniverse](https://scaniverse.com)** | .0B Valuation / ~ Revenue (Parent Niantic) | /month (Plus plan) | Free forever on mobile; unlimited on-device 3D Gaussian Splatting & point-cloud capture/export, 20,000 monthly cloud credits | On-device 3D Gaussian Splatting, LiDAR capture, WebGL sharing, and geospatial mesh processing |
+| **[Luma AI](https://lumalabs.ai)** | .0B Valuation / ~ ARR | /month (Plus tier, 10,000 credits/mo) | Free forever; ~80 daily generation credits for low-volume video & 3DGS testing | Cloud 3D Gaussian Splatting, Dream Machine generative video, and text/image-to-3D asset synthesis |
+| **[Polycam](https://poly.cam)** |  Valuation / ~.5M ARR | /month (/year Pro tier) | Free forever; unlimited LiDAR/room scanning with basic GLTF export (point cloud & CAD export restricted) | Smartphone LiDAR scanning, photogrammetry, 3DGS, and instant browser floor plan generation |
+| **[Cintoo Cloud](https://cintoo.com)** |  Valuation / ~.7M ARR | ,800/year (bundles of 500 scans) | 30-day free trial; maximum 20 scan uploads and unlimited 3D/BIM model imports | Reality capture SaaS streaming massive LiDAR point clouds as high-fidelity TurboMesh™ with CAD/BIM alignment |
+| **[Spline (3DGS & AI)](https://spline.design)** |  Valuation / ~.5M ARR | /editor/month (/mo billed monthly) | Free forever; unlimited personal 3D files and viewers (exports include Spline watermark) | Browser-based 3D design studio supporting imported 3D Gaussian Splats, AI 3D gen, and WebGL embeds |
+| **[Artec Cloud](https://artec3d.com)** | €15M EIB Venture Debt / ~.8M Revenue | /year (~/mo, 200 GB tier) | Free forever; 5 GB free cloud storage for scan uploads, 3D viewing, and team commenting | Cloud photogrammetry and industrial LiDAR scan processing, point-cloud alignment, and mesh reconstruction |
+| **[Pointly](https://pointly.ai)** | Private (Supper & Supper GmbH) | €99/month (Professional S tier, 500 MPoints) | Free forever; 15 million points (15 MPoints) upload limit with pre-trained AI classifiers | Cloud 3D point cloud classification, aerial LiDAR segmentation, and automated feature extraction |
+| **[Jawset Postshot](https://jawset.com)** | Private / Bootstrapped | €17/month (~.50/mo Indie tier, billed annually) | Free forever; unlimited images & model size (non-commercial only, watermarked, locked exports) | Desktop NeRF & 3D Gaussian Splatting workstation with live previews and Unreal Engine / After Effects plugins |
+| **[Gracia AI](https://gracia.ai)** | .9M Seed Funding / Pre-ARR | ~/minute of processed 4DGS content | Free forever for VR Viewer on Steam, Meta Quest, and Apple Vision Pro (pilot trials for creators) | 6DoF volumetric 4D Gaussian Splatting streaming pipeline for photorealistic VR and spatial computing |
 
 ## Open-Source GitHub Projects
 
