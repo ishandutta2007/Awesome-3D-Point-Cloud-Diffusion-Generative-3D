@@ -1,47 +1,50 @@
-# Awesome 3D Point Cloud Diffusion & Generative 3D [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome 3D Point Cloud Diffusion &amp; Generative 3D Banner" width="100%" />
+</p>
+
+# Awesome 3D Point Cloud Diffusion & Generative 3D [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
 > A curated directory of state-of-the-art **3D Point Cloud Diffusion Models**, **Generative 3D AI**, **3D Gaussian Splatting (3DGS)**, **Monocular Depth & Geometry Transformers**, and **LiDAR / Photogrammetry Reality Capture Systems**.
 
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D?style=social)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D?style=social)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/stargazers) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D/pulls) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 ---
 
-## 📌 Executive Summary & Key Highlights
+## 📌 Executive Summary & Key Highlights 🚀
 
 This repository tracks high-impact **commercial SaaS platforms** and **open-source GitHub repositories** powering modern spatial computing and generative 3D vision:
-* **Diffusion Transformers & Flow Matching for 3D Geometry**: Synthesize dense 3D point clouds, signed distance fields (SDF), and textured meshes from text prompts or single reference images (`Point-E`, `TRELLIS`, `LION`, `Hunyuan3D 2.0`, `pointdit`).
-* **Monocular Geometry & Metric Depth Foundation Models**: Reconstruct calibrated pointmaps and dense 3D surfaces without camera priors or COLMAP triangulation (`DUSt3R`, `MASt3R`, `Apple Depth Pro`).
-* **Real-Time Radiance Fields & 3D Gaussian Splatting (3DGS)**: High-speed rasterization, cloud capture, and browser editing of 3D and 4D volumetric scenes (`Scaniverse`, `Luma AI`, `Nerfstudio`, `SuperSplat`, `gsplat`, `Postshot`).
-* **Industrial Reality Capture & Point Cloud Processing**: Automated semantic segmentation, alignment, and WebGL streaming of multi-billion-point airborne/terrestrial LiDAR scans (`Open3D`, `CloudCompare`, `PCL`, `PDAL`, `Potree`, `Cintoo Cloud`).
+* 🧠 **Diffusion Transformers & Flow Matching for 3D Geometry**: Synthesize dense 3D point clouds, signed distance fields (SDF), and textured meshes from text prompts or single reference images (`Point-E`, `TRELLIS`, `LION`, `Hunyuan3D 2.0`, `pointdit`).
+* 📐 **Monocular Geometry & Metric Depth Foundation Models**: Reconstruct calibrated pointmaps and dense 3D surfaces without camera priors or COLMAP triangulation (`DUSt3R`, `MASt3R`, `Apple Depth Pro`).
+* 🔮 **Real-Time Radiance Fields & 3D Gaussian Splatting (3DGS)**: High-speed rasterization, cloud capture, and browser editing of 3D and 4D volumetric scenes (`Scaniverse`, `Luma AI`, `Nerfstudio`, `SuperSplat`, `gsplat`, `Postshot`).
+* 🛰️ **Industrial Reality Capture & Point Cloud Processing**: Automated semantic segmentation, alignment, and WebGL streaming of multi-billion-point airborne/terrestrial LiDAR scans (`Open3D`, `CloudCompare`, `PCL`, `PDAL`, `Potree`, `Cintoo Cloud`).
 
 ---
 
-## 📑 Table of Contents
+## 📑 Table of Contents 🧭
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Spatial AI Platforms](#saas--hosted-spatial-ai-platforms)
-- [Open-Source GitHub Projects (Ranked by Stars)](#open-source-github-projects-ranked-by-stars)
-- [Recommended Architectural Pipelines](#recommended-architectural-pipelines)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & License Guidance](#disclaimer--license-guidance)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Spatial AI Platforms](#️-saas--hosted-spatial-ai-platforms)
+- [💻 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
+- [🛠️ Recommended Architectural Pipelines](#️-recommended-architectural-pipelines)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & License Guidance](#️-disclaimer--license-guidance)
 
 ---
 
-## 📊 Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics 📈
 
 The global market for Generative AI in 3D content creation and spatial reality capture is estimated at **$2.5 billion to $3.2 billion**, accelerating at a CAGR exceeding 35% toward **$9.4+ billion** by the early 2030s. 
 
 Rather than a winner-take-all consolidation, the sector is **highly fragmented**:
-- **Diverse Accuracy Constraints**: Robotics and autonomous driving mandate millimeter-level metric ground truth from LiDAR and SLAM, whereas VFX and gaming prioritize perceptual realism, speed, and clean quad retopology.
-- **Workflow Dispersion**: Toolchains remain split across capture apps, diffusion backbones, 3D Gaussian editors, and traditional DCC engines (Blender, Unreal Engine, Maya).
-- **Open-Weights vs. Proprietary APIs**: Rapid advances in open research models (`TRELLIS`, `Hunyuan3D-2`, `DUSt3R`, `Point-E`) create strong local competition against proprietary cloud ecosystems.
+- 🎯 **Diverse Accuracy Constraints**: Robotics and autonomous driving mandate millimeter-level metric ground truth from LiDAR and SLAM, whereas VFX and gaming prioritize perceptual realism, speed, and clean quad retopology.
+- 🔀 **Workflow Dispersion**: Toolchains remain split across capture apps, diffusion backbones, 3D Gaussian editors, and traditional DCC engines (Blender, Unreal Engine, Maya).
+- 🔓 **Open-Weights vs. Proprietary APIs**: Rapid advances in open research models (`TRELLIS`, `Hunyuan3D-2`, `DUSt3R`, `Point-E`) create strong local competition against proprietary cloud ecosystems.
 
 ---
 
-## ☁️ SaaS & Hosted Spatial AI Platforms
+## ☁️ SaaS & Hosted Spatial AI Platforms 🌐
 
 The table below benchmarks key SaaS reality-capture and generative 3D platforms, sorted descending by company size (valuation / capital raised / ARR):
 
@@ -59,7 +62,7 @@ The table below benchmarks key SaaS reality-capture and generative 3D platforms,
 
 ---
 
-## 💻 Open-Source GitHub Projects (Ranked by Stars)
+## 💻 Open-Source GitHub Projects (Ranked by Stars) ⭐
 
 A comprehensive directory of open-source frameworks, diffusion models, and reality-capture libraries—strictly sorted in descending order by GitHub stargazer count.
 
@@ -158,32 +161,53 @@ A comprehensive directory of open-source frameworks, diffusion models, and reali
 
 ---
 
-## 🛠️ Recommended Architectural Pipelines
+## 🛠️ Recommended Architectural Pipelines 🧩
 
 For teams building end-to-end custom 3D point cloud diffusion and generative 3D pipelines:
 
-1. **Geometry Ingestion & Dense Point Extraction**: Use **Apple Depth Pro** or **DUSt3R / MASt3R** for instant, calibration-free 3D pointmap estimation from unposed camera views.
-2. **Generative Denoising & Shape Synthesis**: Employ **google-research/pointdit**, **microsoft/TRELLIS**, or **OpenAI Point-E** for dense point diffusion, flow matching, and structured latent completion.
-3. **Radiance Field Representation**: Train real-time 3D Gaussian Splats via **Nerfstudio (`gsplat`)** or **Brush**.
-4. **Processing, Cleansing & Production Polish**: Leverage **Open3D** for surface reconstruction / outlier filtering and **SuperSplat** for browser-based interactive crop and float removal.
-5. **Streaming & Big-Data Visualization**: Deploy **Potree** or **Rerun** for multi-gigabyte browser/client streaming of point clouds and camera telemetry.
+1. 📷 **Geometry Ingestion & Dense Point Extraction**: Use **Apple Depth Pro** or **DUSt3R / MASt3R** for instant, calibration-free 3D pointmap estimation from unposed camera views.
+2. 🪄 **Generative Denoising & Shape Synthesis**: Employ **google-research/pointdit**, **microsoft/TRELLIS**, or **OpenAI Point-E** for dense point diffusion, flow matching, and structured latent completion.
+3. ⚡ **Radiance Field Representation**: Train real-time 3D Gaussian Splats via **Nerfstudio (`gsplat`)** or **Brush**.
+4. 🧹 **Processing, Cleansing & Production Polish**: Leverage **Open3D** for surface reconstruction / outlier filtering and **SuperSplat** for browser-based interactive crop and float removal.
+5. 📊 **Streaming & Big-Data Visualization**: Deploy **Potree** or **Rerun** for multi-gigabyte browser/client streaming of point clouds and camera telemetry.
 
 ---
 
-## 🤝 How to Contribute
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-3D-Point-Cloud-Diffusion-Generative-3D&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If you found this curated ecosystem index helpful for your research, projects, or organization, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it!
+- 🍴 **Fork and contribute** new tools, datasets, or research papers.
+- 📢 **Share with your colleagues** in 3D computer vision, graphics, and spatial AI.
+- ☕ **Buy me a coffee / Sponsor on GitHub**: Support ongoing curation and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor%20Me-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+</a>
+
+---
+
+## 🤝 How to Contribute 🚀
 
 Contributions from researchers, engineers, and creators are warmly welcomed!
 
-1. Fork this repository.
-2. Create a feature branch (`git checkout -b feature/new-3d-tool`).
-3. Add or update entries under `README.md` following the established table / badge conventions.
-4. Ensure factual pricing, verified GitHub links, and proper category placement.
-5. Open a Pull Request with a brief summary of the project.
+1. 🍴 Fork this repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/new-3d-tool`).
+3. 📝 Add or update entries under `README.md` following the established table / badge conventions.
+4. ✅ Ensure factual pricing, verified GitHub links, and proper category placement.
+5. 🚀 Open a Pull Request with a brief summary of the project.
 
 ---
 
-## ⚖️ Disclaimer & License Guidance
+## ⚖️ Disclaimer & License Guidance 📜
 
-* This compilation is a **community-curated index** provided for educational and research purposes.
-* Point cloud diffusion transformers and foundational models (`PointDiT`, `TRELLIS`, `DUSt3R`, `DINOv3`) may require high-memory GPUs (CUDA 12+) and specific research license agreements for model weights.
-* Review each project's individual open-source license (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `GPL-2.0+`, or custom academic non-commercial terms) prior to production deployment.
+* ℹ️ This compilation is a **community-curated index** provided for educational and research purposes.
+* 🖥️ Point cloud diffusion transformers and foundational models (`PointDiT`, `TRELLIS`, `DUSt3R`, `DINOv3`) may require high-memory GPUs (CUDA 12+) and specific research license agreements for model weights.
+* 📄 Review each project's individual open-source license (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `GPL-2.0+`, or custom academic non-commercial terms) prior to production deployment.
