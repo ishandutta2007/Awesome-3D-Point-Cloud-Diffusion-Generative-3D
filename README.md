@@ -40,6 +40,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global market for Generative AI in 3D assets and reality capture is currently valued between **.5 billion and .2 billion**, accelerating at a CAGR exceeding 35% toward an estimated **.4+ billion** by the early 2030s. The sector remains **highly fragmented** rather than winner-take-all, driven by distinct vertical requirements across autonomous robotics (metric LiDAR accuracy), AEC/BIM digital twins (massive cloud point-cloud processing), spatial computing/XR (4D Gaussian Splatting), and real-time gaming (lightweight textured meshes and diffusion transformers).
+
 ## SaaS/Hosted Platforms
 
 | Platform | Valuation / Revenue | Starting Pricing | Free Tier Limits | Key Capabilities |
