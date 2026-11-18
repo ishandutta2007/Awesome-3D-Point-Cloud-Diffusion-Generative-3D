@@ -60,117 +60,100 @@ The global market for Generative AI in 3D assets and reality capture is currentl
 
 ## Open-Source GitHub Projects
 
+A curated index of open-source repositories for 3D point cloud diffusion, generative 3D modeling, Gaussian Splatting, and LiDAR reality capture—strictly ranked by GitHub star count.
 
+- **[3D Gaussian Splatting (`graphdeco-inria/gaussian-splatting`)](https://github.com/graphdeco-inria/gaussian-splatting)** [![GitHub stars](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting?style=social&color=white)](https://github.com/graphdeco-inria/gaussian-splatting/stargazers)  
+  Foundational SIGGRAPH 2023 3D Gaussian Splatting project for real-time radiance field rendering, rasterization, and rapid novel view synthesis.
 
-- **[google-research/pointdit](https://github.com/google-research/pointdit)**  
+- **[Tencent Hunyuan3D 2.0 (`Tencent-Hunyuan/Hunyuan3D-2`)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)** [![GitHub stars](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-2?style=social&color=white)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2/stargazers)  
+  Advanced high-resolution 3D asset generation system synthesizing production-grade textured meshes and geometric shapes from single images or text prompts.
 
-  ICML 2026 open-source minimalist pixel-space Diffusion Transformer (`ViT`) conditioned on frozen `DINOv3` tokens that directly denoises raw 3D point map patches without lossy VAE bottlenecks.
+- **[TRELLIS (`microsoft/TRELLIS`)](https://github.com/microsoft/TRELLIS)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/TRELLIS?style=social&color=white)](https://github.com/microsoft/TRELLIS/stargazers)  
+  Microsoft open-source structured latent diffusion model for fast, high-quality 3D asset generation across Radiance Fields, 3D Gaussians, and meshes.
 
+- **[Open3D (`isl-org/Open3D`)](https://github.com/isl-org/Open3D)** [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers)  
+  Modern open-source (MIT) C++ and Python library for 3D point cloud processing, ICP alignment, Poisson surface reconstruction, and hardware-accelerated visualization.
 
+- **[Nerfstudio (`nerfstudio-project/nerfstudio`)](https://github.com/nerfstudio-project/nerfstudio)** [![GitHub stars](https://img.shields.io/github/stars/nerfstudio-project/nerfstudio?style=social&color=white)](https://github.com/nerfstudio-project/nerfstudio/stargazers)  
+  Modular open-source (Apache-2.0) PyTorch framework unifying 3D Gaussian Splatting (splatfacto), NeRFs, camera pose estimation, and real-time web viewers.
 
-- **[OpenAI Point-E (`openai/point-e`)](https://github.com/openai/point-e)**  
+- **[Rerun (`rerun-io/rerun`)](https://github.com/rerun-io/rerun)** [![GitHub stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social&color=white)](https://github.com/rerun-io/rerun/stargazers)  
+  High-performance visual data SDK for streaming, logging, and interactively visualizing multimodal 3D point clouds, spatial sensor streams, and computer vision data.
 
-  Official open-source (`MIT`) two-stage diffusion pipeline from OpenAI that synthesizes synthetic views and generates colored 3D point clouds and SDF meshes from text or images.
+- **[Point Cloud Library (`PointCloudLibrary/pcl`)](https://github.com/PointCloudLibrary/pcl)** [![GitHub stars](https://img.shields.io/github/stars/PointCloudLibrary/pcl?style=social&color=white)](https://github.com/PointCloudLibrary/pcl/stargazers)  
+  Comprehensive, standalone, large-scale open-source C++ framework for 2D/3D point cloud and image processing, KD-tree indexing, and feature estimation.
 
+- **[SuperSplat (`playcanvas/supersplat`)](https://github.com/playcanvas/supersplat)** [![GitHub stars](https://img.shields.io/github/stars/playcanvas/supersplat?style=social&color=white)](https://github.com/playcanvas/supersplat/stargazers)  
+  Free and open-source (MIT) WebGL/WebGPU 3D Gaussian Splatting editor for inspecting, cropping, filtering floaters, and optimizing .ply and .sog splat scenes.
 
+- **[Stable-Dreamfusion (`ashawkey/stable-dreamfusion`)](https://github.com/ashawkey/stable-dreamfusion)** [![GitHub stars](https://img.shields.io/github/stars/ashawkey/stable-dreamfusion?style=social&color=white)](https://github.com/ashawkey/stable-dreamfusion/stargazers)  
+  PyTorch implementation of text-to-3D and image-to-3D generation using 2D diffusion models (Stable Diffusion) via Score Distillation Sampling (SDS).
 
-- **[Nerfstudio](https://github.com)**  
+- **[DUSt3R (`naver/dust3r`)](https://github.com/naver/dust3r)** [![GitHub stars](https://img.shields.io/github/stars/naver/dust3r?style=social&color=white)](https://github.com/naver/dust3r/stargazers)  
+  Geometric 3D vision transformer that predicts dense 3D pointmaps directly from uncalibrated image pairs without requiring prior camera parameters or COLMAP.
 
-  Modular open-source (`Apache-2.0`) PyTorch framework unifying 3D Gaussian Splatting (`splatfacto`), NeRFs, COLMAP/GLOMAP pose estimation, and an interactive real-time web viewer.
+- **[Threestudio (`threestudio-project/threestudio`)](https://github.com/threestudio-project/threestudio)** [![GitHub stars](https://img.shields.io/github/stars/threestudio-project/threestudio?style=social&color=white)](https://github.com/threestudio-project/threestudio/stargazers)  
+  Unified modular PyTorch framework for 3D content creation from text, images, and point clouds using diverse diffusion priors and implicit representations.
 
+- **[OpenAI Point-E (`openai/point-e`)](https://github.com/openai/point-e)** [![GitHub stars](https://img.shields.io/github/stars/openai/point-e?style=social&color=white)](https://github.com/openai/point-e/stargazers)  
+  Official open-source (MIT) two-stage diffusion pipeline from OpenAI synthesizing synthetic views and generating colored 3D point clouds and SDF meshes.
 
+- **[gsplat (`nerfstudio-project/gsplat`)](https://github.com/nerfstudio-project/gsplat)** [![GitHub stars](https://img.shields.io/github/stars/nerfstudio-project/gsplat?style=social&color=white)](https://github.com/nerfstudio-project/gsplat/stargazers)  
+  CUDA-accelerated Python library for 3D Gaussian Splatting rasterization, memory-efficient backpropagation, and lightning-fast differentiable rendering.
 
-- **[SuperSplat (PlayCanvas)](https://github.com)**  
+- **[Apple Depth Pro (`apple/ml-depth-pro`)](https://github.com/apple/ml-depth-pro)** [![GitHub stars](https://img.shields.io/github/stars/apple/ml-depth-pro?style=social&color=white)](https://github.com/apple/ml-depth-pro/stargazers)  
+  Foundation model for zero-shot metric monocular depth estimation producing sharp, high-frequency dense 3D point clouds and focal length predictions in sub-second time.
 
-  Free and open-source (`MIT`) browser-based 3D Gaussian Splatting editor and optimizer for inspecting, cropping, cleaning floaters, and compressing `.ply` / `.sog` splats.
+- **[Potree (`potree/potree`)](https://github.com/potree/potree)** [![GitHub stars](https://img.shields.io/github/stars/potree/potree?style=social&color=white)](https://github.com/potree/potree/stargazers)  
+  Free open-source (BSD-2-Clause) WebGL point cloud renderer engineered to stream and visualize multi-billion-point LiDAR and photogrammetry datasets directly in browsers.
 
+- **[PointNet (`charlesq34/pointnet`)](https://github.com/charlesq34/pointnet)** [![GitHub stars](https://img.shields.io/github/stars/charlesq34/pointnet?style=social&color=white)](https://github.com/charlesq34/pointnet/stargazers)  
+  Pioneering deep learning architecture directly consuming raw unstructured 3D point clouds for 3D object classification, part segmentation, and scene parsing.
 
+- **[Brush (`ArthurBrussee/brush`)](https://github.com/ArthurBrussee/brush)** [![GitHub stars](https://img.shields.io/github/stars/ArthurBrussee/brush?style=social&color=white)](https://github.com/ArthurBrussee/brush/stargazers)  
+  Modern, high-performance universal 3D Gaussian Splatting viewer and reconstruction system written in Rust and WebGPU.
 
-- **[LION (`nv-tlabs/LION`)](https://github.com)**  
+- **[CloudCompare (`CloudCompare/CloudCompare`)](https://github.com/CloudCompare/CloudCompare)** [![GitHub stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=social&color=white)](https://github.com/CloudCompare/CloudCompare/stargazers)  
+  Industry-standard open-source (GPL-2.0+) 3D point cloud and triangular mesh processing suite for massive LiDAR registration, segmentation, and distance analysis.
 
-  NVIDIA NeurIPS open-source Hierarchical Latent Point Diffusion model combining a Point-Voxel VAE with dual latent diffusion models for high-resolution 3D shape generation and voxel/text conditioning.
+- **[MASt3R (`naver/mast3r`)](https://github.com/naver/mast3r)** [![GitHub stars](https://img.shields.io/github/stars/naver/mast3r?style=social&color=white)](https://github.com/naver/mast3r/stargazers)  
+  Matching and Stereo 3D Reconstruction pipeline extending DUSt3R with fast local feature matching and dense metric point cloud generation.
 
+- **[PDAL (`PDAL/PDAL`)](https://github.com/PDAL/PDAL)** [![GitHub stars](https://img.shields.io/github/stars/PDAL/PDAL?style=social&color=white)](https://github.com/PDAL/PDAL/stargazers)  
+  Point Data Abstraction Library providing composable pipelines for translating, filtering, and processing geospatial LiDAR point clouds in LAS, LAZ, and E57 formats.
 
+- **[PointNeXt (`guochengqian/PointNeXt`)](https://github.com/guochengqian/PointNeXt)** [![GitHub stars](https://img.shields.io/github/stars/guochengqian/PointNeXt?style=social&color=white)](https://github.com/guochengqian/PointNeXt/stargazers)  
+  Next-generation modernized PointNet++ baseline utilizing modern training techniques and inverted residual architectures for fast point cloud representation learning.
 
-- **[Diffusion Point Cloud (`luost26/diffusion-point-cloud`)](https://github.com/luost26/diffusion-point-cloud)**  
+- **[LION (`nv-tlabs/LION`)](https://github.com/nv-tlabs/LION)** [![GitHub stars](https://img.shields.io/github/stars/nv-tlabs/LION?style=social&color=white)](https://github.com/nv-tlabs/LION/stargazers)  
+  NVIDIA NeurIPS Hierarchical Latent Point Diffusion model combining Point-Voxel VAEs with dual latent diffusion models for high-resolution 3D shape generation.
 
-  Foundational CVPR 2021 open-source probabilistic diffusion model for 3D point cloud generation, auto-encoding, shape completion, and upsampling.
+- **[Diffusion Point Cloud (`luost26/diffusion-point-cloud`)](https://github.com/luost26/diffusion-point-cloud)** [![GitHub stars](https://img.shields.io/github/stars/luost26/diffusion-point-cloud?style=social&color=white)](https://github.com/luost26/diffusion-point-cloud/stargazers)  
+  Foundational CVPR 2021 probabilistic diffusion model for 3D point cloud generation, auto-encoding, point completion, and unsupervised shape upsampling.
 
+- **[GaussianAnything (`NIRVANALAN/GaussianAnything`)](https://github.com/NIRVANALAN/GaussianAnything)** [![GitHub stars](https://img.shields.io/github/stars/NIRVANALAN/GaussianAnything?style=social&color=white)](https://github.com/NIRVANALAN/GaussianAnything/stargazers)  
+  ICLR 2025 cascaded 3D native diffusion pipeline utilizing a point-cloud structured latent space to generate editable 3D Gaussian assets from text or images.
 
+- **[PVD (`alexzhou907/PVD`)](https://github.com/alexzhou907/PVD)** [![GitHub stars](https://img.shields.io/github/stars/alexzhou907/PVD?style=social&color=white)](https://github.com/alexzhou907/PVD/stargazers)  
+  ICCV 2021 Point-Voxel Diffusion framework unifying point-level and voxel-level representations for 3D shape synthesis and dense point-cloud completion.
 
-- **[PVD (`alexzhou907/PVD`)](https://github.com)**  
+- **[google-research/pointdit (`google-research/pointdit`)](https://github.com/google-research/pointdit)** [![GitHub stars](https://img.shields.io/github/stars/google-research/pointdit?style=social&color=white)](https://github.com/google-research/pointdit/stargazers)  
+  ICML 2026 open-source minimalist pixel-space Diffusion Transformer (ViT) conditioned on frozen DINOv3 tokens that directly denoises raw 3D point map patches.
 
-  ICCV 2021 open-source Point-Voxel Diffusion framework unifying point-level and voxel-level representations for 3D shape generation and partial point-cloud completion.
+- **[Occupancy Flow (`autonomousvision/occupancy_flow`)](https://github.com/autonomousvision/occupancy_flow)** [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/occupancy_flow?style=social&color=white)](https://github.com/autonomousvision/occupancy_flow/stargazers)  
+  4D reconstruction architecture learning continuous vector fields in space and time to capture dense motion and continuous generative shape representations.
 
+- **[SLIDE (`SLIDE-3D/SLIDE`)](https://github.com/SLIDE-3D/SLIDE)** [![GitHub stars](https://img.shields.io/github/stars/SLIDE-3D/SLIDE?style=social&color=white)](https://github.com/SLIDE-3D/SLIDE/stargazers)  
+  Sparse Latent Point Diffusion model encoding 3D geometries into sparse latent points with rich features for controllable point-cloud and mesh generation.
 
+- **[SPVD (`JohnRomanelis/SPVD`)](https://github.com/JohnRomanelis/SPVD)** [![GitHub stars](https://img.shields.io/github/stars/JohnRomanelis/SPVD?style=social&color=white)](https://github.com/JohnRomanelis/SPVD/stargazers)  
+  TNNLS 2025 Sparse Point-Voxel Diffusion framework leveraging TorchSparse for scalable conditional point cloud generation, completion, and super-resolution.
 
-- **[SPVD (`JohnRomanelis/SPVD`)](https://github.com/johnromanelis/spvd)**  
+- **[DiffFacto (`diffFacto/diffFacto`)](https://github.com/diffFacto/diffFacto)** [![GitHub stars](https://img.shields.io/github/stars/diffFacto/diffFacto?style=social&color=white)](https://github.com/diffFacto/diffFacto/stargazers)  
+  ICCV 2023 controllable part-based 3D point cloud generation model using cross-diffusion to factor independent part geometries and spatial configurations.
 
-  TNNLS 2025 open-source Sparse Point-Voxel Diffusion framework leveraging TorchSparse for scalable unconditional/conditional point cloud generation, completion, and super-resolution.
-
-
-
-- **[DiffFacto (`diffFacto/diffFacto`)](https://github.com/diffFacto/diffFacto)**  
-
-  ICCV 2023 open-source (`MIT`) controllable part-based 3D point cloud generation model using cross-diffusion to factor independent part styles and spatial configurations.
-
-
-
-- **[SLIDE (`SLIDE-3D/SLIDE`)](https://github.com/SLIDE-3D/SLIDE)**  
-
-  Open-source Sparse Latent Point Diffusion model that encodes 3D shapes into sparse latent points with features for controllable point-cloud and Shape-As-Points mesh generation.
-
-
-
-- **[GaussianAnything (`NIRVANALAN/GaussianAnything`)](https://github.com)**  
-
-  ICLR 2025 open-source cascaded 3D native diffusion pipeline using a point-cloud structured latent space to generate editable 3D assets from text, point clouds, or images.
-
-
-
-- **[DUSt3R & MASt3R (`naver/dust3r`)](https://github.com)**  
-
-  Open-source dense 3D pointmap reconstruction models capable of recovering calibrated 3D point clouds and camera poses from uncalibrated image pairs without prior intrinsics.
-
-
-
-- **[Open3D (`isl-org/Open3D`)](https://github.com)**  
-
-  Modern open-source (`MIT`) C++ and Python library for 3D point-cloud processing, ICP registration, Poisson/Ball-Pivoting surface reconstruction, and GPU visualization.
-
-
-
-- **[CloudCompare](https://github.com)**  
-
-  Industry-standard open-source (`GPL-2.0+`) desktop 3D point cloud and triangular mesh processing software for massive LiDAR registration, segmentation, and distance computation.
-
-
-
-- **[Potree](https://github.com)**  
-
-  Free open-source (`BSD-2-Clause`) WebGL point cloud renderer engineered to stream and visualize multi-billion-point LiDAR and photogrammetry datasets directly in browsers.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Dekai21/Awesome-Point-Cloud-Generation](https://github.com/Dekai21/Awesome-Point-Cloud-Generation)** for a curated chronological index of point-cloud diffusion, flow-matching, and autoregressive papers (`DiT-3D`, `TIGER`, `PSF`, `SeaLion`).
-
-- **[Point Cloud Library (PCL)](https://github.com)** and **[PDAL (Point Data Abstraction Library)](https://github.com)** for industrial-grade C++ point cloud filtering, KD-tree spatial indexing, and LAS/LAZ geospatial pipelines.
-
-- **[gsplat](https://github.com)** and **[Brush (`ArthurBrussee/brush`)](https://github.com)** for high-speed CUDA and cross-platform Rust/WebGPU 3D Gaussian Splatting training and rasterization.
-
-- **[Microsoft TRELLIS](https://github.com)** and **[Tencent Hunyuan3D-2](https://github.com)** for downstream structured latent and diffusion-based textured mesh synthesis.
-
-- **[rerun.io (`rerun-io/rerun`)](https://github.com)** for high-performance open-source multimodal visualization of streaming 3D point clouds, depth maps, and spatial AI telemetry.
-
-
-
-**Frameworks for building custom systems**: Combine **google-research/pointdit** or **OpenAI Point-E** with **DUSt3R**, **Nerfstudio (`gsplat`)**, **Open3D**, and **Potree / SuperSplat** for end-to-end open-source point cloud diffusion and generative 3D pipelines.
-
-
+- **[Awesome-Point-Cloud-Generation (`Dekai21/Awesome-Point-Cloud-Generation`)](https://github.com/Dekai21/Awesome-Point-Cloud-Generation)** [![GitHub stars](https://img.shields.io/github/stars/Dekai21/Awesome-Point-Cloud-Generation?style=social&color=white)](https://github.com/Dekai21/Awesome-Point-Cloud-Generation/stargazers)  
+  Curated chronological index of point-cloud diffusion, flow-matching, and autoregressive architectures (DiT-3D, TIGER, PSF, SeaLion).
 
 ## How to Contribute
 
